@@ -19,23 +19,30 @@ cd futebol_club_api
 
 4. Install the required dependencies using npm:
 ```
-npm install
-```
-or
-
-```
-pnpm install
+npm install:apps
 ```
 
-> This command will install all the required packages, including ESLint, RTL, and Jest.
+> This command will install all the required packages, including ESLint, RTL, Jest, Node, Typescript and other stuffs.
+
+5. Running containers, docker:
+```
+npm compose:up
+```
+
+> This command will execute a 'docker-compose up' to start all the necessary containers for running the application.
 
 ## Usage
 To run the aplication, use the following command:
+
+```
+cd app/back-end
+```
+
+```
+npm i
+```
+
 ```
 npm run dev
-```
-or
-```
-pnpm run dev
 ```
 > This will start a development server, which will allow you to view the application in your web browser. By default, the api will be available at http://localhost:5173.
