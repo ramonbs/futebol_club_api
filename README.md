@@ -3,18 +3,18 @@
 Application for my final exam in the back-end course using typescript, OOP, Docker and Sequelize ORM.
 
 ## Installation
-To install the API Football, please follow the steps below:
+To install the futebol_club_api, please follow the steps below:
 
 1. Ensure that you have Node.js at version 18 and npm installed on your computer. If you don't, you can download them from the official Node.js website https://nodejs.org/en/. I recommend NVM for the manage of node's version, you can download it from the official nvm repository https://github.com/nvm-sh/nvm.
 
 2. Clone this repository to your local machine using the following command:
 ```
-git clone git@github.com:ramonbs/api-football.git
+git clone git@github.com:ramonbs/futebol_club_api.git
 ```
 
 3. Navigate into the project directory:
 ```
-cd api-football
+cd futebol_club_api
 ```
 
 4. Install the required dependencies using npm:
@@ -38,4 +38,4 @@ or
 ```
 pnpm run dev
 ```
-> This will start a development server, which will allow you to view the application in your web browser. By default, the game will be available at http://localhost:5173.
+> This will start a development server, which will allow you to view the application in your web browser. By default, the api will be available at http://localhost:5173.
